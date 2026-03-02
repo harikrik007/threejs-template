@@ -1,0 +1,12 @@
+import { defineConfig } from 'vite'
+
+export default defineConfig({
+    server: {
+        host: true,
+        allowedHosts: 'all',
+        port: 5173,
+    },
+    build: {
+        outDir: 'dist',
+    },
+})
